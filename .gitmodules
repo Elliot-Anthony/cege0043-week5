@@ -1,0 +1,9 @@
+[submodule "ucesecb/www/js"]
+	path = ucesecb/www/js
+	url = https://github.com/Elliot-Anthony/cege0043-jsReference
+[submodule "ucesecb/www/css"]
+	path = ucesecb/www/css
+	url = https://github.com/Elliot-Anthony/cege0043-cssReference
+[submodule "ucesecb/www/images"]
+	path = ucesecb/www/images
+	url = https://github.com/Elliot-Anthony/cege0043-imagesReference
