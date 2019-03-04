@@ -101,6 +101,8 @@
             <li class="mdl-menu__item" onclick="menuClicked()">Legal Information</li>
             <li class="mdl-menu__item" onclick="addPointLinePoly()">Load Data</li>
             <li class="mdl-menu__item" onclick="getPort()">Port Number</li>
+            <li class="mdl-menu__item" onclick="trackLocation();return false;">Track Location</li>
+            <li class="mdl-menu__item" onclick="showPosition()">Show Position</li>
           </ul>
         </div>
       </header>
@@ -142,9 +144,8 @@
         <div class="mdl-grid demo-content">
             <div class="demo-separator mdl-cell--1-col"></div>
             <div id="ucllogo" name="ucllogo"> div goes here</div>
-            <div id="mapid" style="width: 600px; height: 500px;"></div>
-            <!--<div id='showLocation'>Location will be displayed here</div>-->
-            <!--<button id='trackLocation' onclick='trackLocation()'>Click Me to Get Your Location</button>-->
+            <div id="mapid" style="width: 600px; height: 400px;"></div>
+            <div id='showLocation'>Location will be displayed here</div>
           </div>
         </div>
       </main>
